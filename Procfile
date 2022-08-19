@@ -1,1 +1,2 @@
-worker: npm install -g pm2 && pm2-runtime index.js --family
+worker: node . --db 'mongodb+srv://SDhyka:kita_dhika1@cluster0.zph4cyw.mongodb.net/?retryWrites=true&w=majority'
+web: npm start
